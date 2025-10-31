@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Thakur</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav
+        style="display:flex;justify-content:center;align-items:center;gap:3.5rem;padding:0.9rem 3rem;position:fixed;top:25px;left:50%;transform:translateX(-50%);z-index:100;background:rgba(11,18,32,0.85);backdrop-filter:blur(15px);border:1px solid rgba(155,255,204,0.15);border-radius:50px;box-shadow:0 0 25px rgba(155,255,204,0.15);font-family:'Poppins',sans-serif; ">
+
+        <!-- Logo -->
+        <div
+            style="font-size:1.3rem;font-weight:700;color:#B8FF66;letter-spacing:2px;text-transform:uppercase;display:flex;align-items:center;gap:0.5rem;">
+            <span style="display:inline-block;width:3px;height:22px;background:#9BFFCC;border-radius:3px;"></span>
+            OM THAKUR
+        </div>
+
+        <!-- Navigation Links -->
+        <div style="display:flex;gap:2.5rem;">
+            <a href="index.html"
+                style="position:relative;text-decoration:none;color:#9BFFCC;font-weight:500;letter-spacing:0.5px;transition:all 0.3s ease;"
+                onmouseover="this.style.color='#B8FF66'; this.querySelector('span').style.width='100%';"
+                onmouseout="this.style.color='#9BFFCC'; this.querySelector('span').style.width='0';">
+                HOME
+                <span
+                    style="display:block;position:absolute;width:0;height:2px;bottom:-5px;left:0;background:#80FFE0;box-shadow:0 0 8px #80FFE0;transition:width 0.3s ease;"></span>
+            </a>
+
+            <a href="index.html#skills"
+                style="position:relative;text-decoration:none;color:#9BFFCC;font-weight:500;letter-spacing:0.5px;transition:all 0.3s ease;"
+                onmouseover="this.style.color='#B8FF66'; this.querySelector('span').style.width='100%';"
+                onmouseout="this.style.color='#9BFFCC'; this.querySelector('span').style.width='0';">
+                SKILLS
+                <span
+                    style="display:block;position:absolute;width:0;height:2px;bottom:-5px;left:0;background:#80FFE0;box-shadow:0 0 8px #80FFE0;transition:width 0.3s ease;"></span>
+            </a>
+
+            <a href="aboutme.html"
+                style="position:relative;text-decoration:none;color:#9BFFCC;font-weight:500;letter-spacing:0.5px;transition:all 0.3s ease;"
+                onmouseover="this.style.color='#B8FF66'; this.querySelector('span').style.width='100%';"
+                onmouseout="this.style.color='#9BFFCC'; this.querySelector('span').style.width='0';">
+                ABOUT
+                <span
+                    style="display:block;position:absolute;width:0;height:2px;bottom:-5px;left:0;background:#80FFE0;box-shadow:0 0 8px #80FFE0;transition:width 0.3s ease;"></span>
+            </a>
+
+            <a href="#contact"
+                style="position:relative;text-decoration:none;color:#9BFFCC;font-weight:500;letter-spacing:0.5px;transition:all 0.3s ease;"
+                onmouseover="this.style.color='#B8FF66'; this.querySelector('span').style.width='100%';"
+                onmouseout="this.style.color='#9BFFCC'; this.querySelector('span').style.width='0';">
+                CONTACT
+                <span
+                    style="display:block;position:absolute;width:0;height:2px;bottom:-5px;left:0;background:#80FFE0;box-shadow:0 0 8px #80FFE0;transition:width 0.3s ease;"></span>
+            </a>
+        </div>
+
+    </nav>
+    <section id="vertical">
+        <div class="container">
+            <div class="vertical__content">
+                <div class="col col_left">
+                    <h2><span>About</span><span>ME</span></h2>
+                </div>
+
+                <div class="col col_right">
+                    <br>
+                    <div>
+                        <h3>Mumbai, India 🇮🇳</h3>
+                    </div>
+                    <div class="vertical__item">
+                        <div class="inspiration">
+                            <div class="quote-container">
+                                <h2 class="quote-heading">💡 What I believe in</h2>
+                                <blockquote>
+                                    “The future belongs to those who believe in the beauty of their dreams.”
+                                </blockquote>
+                                <p class="quote-author">— Eleanor Roosevelt</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vertical__item">
+                        <h3>About Me</h3>
+                        <p>I Enjoy experimenting with new ideas and learning beyond the classroom.
+                            Driven to create solutions that blend creativity and technology. I am a strong
+                            believer
+                            and
+                            hate to keep things pending.</p>
+                    </div>
+                    <div class="vertical__item">
+                        <h3>What Drives Me</h3>
+                        <p>Curiosity keeps me moving forward — I love exploring how ideas turn into reality through
+                            design, logic, and a bit of creativity.</p>
+                    </div>
+                    <div class="vertical__item">
+                        <h3>Problem Solving</h3>
+                        <p>I enjoy finding clarity in complexity — breaking down challenges and building smart, simple
+                            solutions that just work.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="languages" id="languages">
+        <h2 class="section-title">Languages <span>I Speak</span></h2>
+        <p class="section-subtitle">Each language adds a new way to think, connect, and create.</p>
+
+        <div class="lang-bars">
+            <div class="lang">
+                <span class="lang-name">English 🇬🇧</span>
+                <div class="bar">
+                    <div class="fill" style="width: 100%;"></div>
+                </div>
+                <small>Fluent</small>
+            </div>
+
+            <div class="lang">
+                <span class="lang-name">Spanish 🇪🇸</span>
+                <div class="bar">
+                    <div class="fill" style="width: 70%;"></div>
+                </div>
+                <small>Conversational</small>
+            </div>
+
+            <div class="lang">
+                <span class="lang-name">Hindi 🇮🇳</span>
+                <div class="bar">
+                    <div class="fill" style="width: 95%;"></div>
+                </div>
+                <small>Native</small>
+            </div>
+
+            <div class="lang">
+                <span class="lang-name">Marathi 🇮🇳</span>
+                <div class="bar">
+                    <div class="fill" style="width: 90%;"></div>
+                </div>
+                <small>Native</small>
+            </div>
+        </div>
+    </section>
+
+
+    <h2>Some Photos by me</h2>
+    <section>
+        <div class="image-gallery">
+            <div class="image-tile"><img src="starfish.jpeg" alt="starfish"></div>
+            <div class="image-tile"><img src="car.jpeg" alt="Car"></div>
+            <div class="image-tile"><img src="chandelier.jpeg" alt="chandelier"></div>
+            <div class="image-tile"><img src="Ganpati.jpeg" alt="Ganpati Bappa"></div>
+            <div class="image-tile"><img src="skyscraper.jpeg" alt="View from a Skyskraper"></div>
+            <div class="image-tile"><img src="wall.jpeg" alt="Marble Wall"></div>
+        </div>
+
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2>CONTACT <span>ME</span></h2>
+            <p>Have a project, idea, or opportunity? Let's connect.</p>
+
+            <form action="https://formspree.io/f/mdkpzokr" method="POST" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="contact-btn">Send Message</button>
+            </form>
+        </div>
+        <footer>
+            <p>© 2025 Om Thakur. All rights reserved.</p>
+        </footer>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://assets.codepen.io/16327/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
