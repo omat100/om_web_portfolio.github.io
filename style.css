@@ -246,17 +246,7 @@ textarea {
     min-height: 100px;
 }
 
-button:hover {
-    background: linear-gradient(90deg, #9BFFCC, #B8FF66);
-    color: #111;
-    border: none;
-    padding: 12px;
-    font-weight: 600;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: 0.3s;
-    text-transform: uppercase;
-}
+
 
 .contact-btn:hover {
     background: #e4ff80;
@@ -428,6 +418,7 @@ footer {
     font-size: 13px;
 }
 
+/* Make sure it sits below About Me, not beside */
 .inspiration {
     width: 85%;
     margin: 80px auto 120px;
@@ -474,6 +465,7 @@ blockquote {
     color: #c5e7a0;
 }
 
+/* Workflow Section */
 .workflow-section {
     background: #0b0b0b;
     border-radius: 25px;
@@ -552,7 +544,9 @@ blockquote {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    /* space between images */
     flex-wrap: wrap;
+    /* keeps responsive on small screens */
     margin: 50px 0;
 }
 
